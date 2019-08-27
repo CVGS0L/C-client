@@ -20,7 +20,7 @@ class MainClass
         dsk.Get();
         string id = dsk["VolumeSerialNumber"].ToString();
 
-        //set the console colors
+        //set the console colors (for cool hacker look, and to look more like Chrome I guess)
         Console.BackgroundColor = ConsoleColor.White;
         Console.ForegroundColor = ConsoleColor.Green;
         Console.Clear();
